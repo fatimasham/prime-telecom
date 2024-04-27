@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    background-color:#fff;
+}
+
+#prm {
+    width: 200px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content:flex-end;
+    background-color: #5500cc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.itemOne {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.item2 {
+    color: #8e8e8e;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+h4 {
+    color: #8e8e8e;
+}
+.item2:hover {
+    color: black;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 16px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bottom-left1 {
+    position: absolute;
+    bottom: 35%;
+    left: 30px;
+    color: black;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bottom-left2{
+    position: absolute;
+    bottom: 20%;
+    left: 120px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    background-color: #29ABE2;
+}
+
+.btn:hover {
+    background-color: #138414;
+    color: #fff;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+}
+.spisok {
+    display: flex;
+    flex-direction: column;
+}
+
+.par {
+    color: black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.container2, .container3 {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+.internet {
+    display: flex;
+    flex-direction: column; 
+    flex:1;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 10px #d7d7d7;
+}
+
+.internet:hover {
+    background-color: #f1eff0;
+}
+
+.but {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid #5500cc;
+    color:#fff;
+    padding: 10px;
+    background-color:#5500cc;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.pic {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container4 {
+    position: relative;
+    text-align: center;
+}
+
+.contacts {
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    padding: 10px;
+}
+
+@media all and (max-width:800px) {
+body {
+    margin: 10px;
+}
+
+.item2 {
+    padding: 2px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+#prm {
+    width: 100px;
+}
+
+#logo {
+    width: 10%;
+}
+
+.itemOne {
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.bottom-left1 {
+    display: none;
+}
+
+.btn {
+    font-size: 15px;
+}
+
+.bottom-left2 {
+    bottom: 30%;
+    left: 4%;
+}
+
+#foto {
+    display: none;
+}
+
+.par {
+    font-size: 16px;
+}
+
+.bottom-right {
+    right: 0;
+}
+
+.internet {
+    padding: 20px;
+    margin: 10px;
+    font-size: 10px;
+}
+.but {
+    font-size: 10px;
+}
+
+.images {
+    padding: 10px;
+}
+.pic {
+    width: 15%;
+}
+
+.cnt {
+    width: 40px;
+}
+}
+
+@media all and (max-width:500px) {
+
+    body {
+        margin: 5px;
+    }
+
+    .item2 {
+        font-size: 7px;
+        padding: 2px;
+        margin-top: 10px;
+    }
+
+   #logo {
+        width: 10%;
+    }
+    
+       .itemOne {
+        margin-top: 7px;
+        font-size: 7px;
+        padding: 0;
+        margin-right: 5px; 
+    }
+
+
+    .bottom-right{
+        bottom: 35%;
+        right: 3%;
+    }
+
+    .top-left {
+        top: 25%;
+        left: 6px;
+        color: black;
+    }
+
+h1  {
+    font-size: 10px;
+}
+
+.bottom-left2{
+    bottom: 35%;
+    left: 3%;
+}
+
+.btn {
+    font-size: 8px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.par{
+    font-size: 7px;
+}
+
+#prm {
+    width: 50px;
+}
+
+.container2, .container3 {
+    display:flex;
+    flex-direction: column;
+  }
+
+  #foto {
+    width: 20px;
+    height: 20px;
+}
+.pic {
+  border-radius: 5px;
+  margin: 2px;
+  width: 60px;
+  }
+
+  .cnt {
+    width: 20px;
+}
+.contacts {
+    top: 2%;
+    right: 1%;
+}
+}
